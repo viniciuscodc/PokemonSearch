@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+  display: block;
+}
+form {
+  text-align: center;
+}
+.search {
+  display: inline-flex;
+  width: 100px;
+  height: 34px;
+  background-color: rgb(61, 108, 236);
+  border-radius: 5px;
+  border: 10px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+.search p {
+  color: #fff;
+  font-weight: 800;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
