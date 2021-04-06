@@ -6,14 +6,20 @@
     <link href="reset.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
   </head>
-  <body>
-    <h1>Enter your pokemon</h1>
+  <body id="background">
+    <img id="enterPokemon" src="font2.png" />
     <form>
-      <input id="pokemonName" type="text" name="pokemonName" />
-      <div class="search"><p>Search</p></div>
+      <input id="userInput" type="text" />
     </form>
+    <img id="submit" src="font.png" />
 
-    <img id="pokemon" />
+    <div class="container">
+      <img id="pokemonSprite" />
+      <div class="container2">
+        <p class="name"></p>
+        <p class="number"></p>
+      </div>
+    </div>
   </body>
   <script src="main.js"></script>
 </html>

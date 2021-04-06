@@ -1,28 +1,68 @@
-h1 {
-  text-align: center;
-  display: block;
+#background {
+  background-color: #b3b0b0;
+  background-image: url(background.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
+
 form {
   text-align: center;
 }
-.search {
-  display: inline-flex;
-  width: 100px;
-  height: 34px;
-  background-color: rgb(61, 108, 236);
+
+form input {
+  width: 150px;
+  height: 25px;
   border-radius: 5px;
-  border: 10px;
+}
+
+#enterPokemon {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+#submit {
+  display: block;
+  margin: 0 auto;
   cursor: pointer;
+  padding-top: 15px;
+  margin-bottom: 5px;
+}
+
+#submit:hover {
+  opacity: 0.7;
+}
+
+.container {
+  display: block;
+  border-radius: 5px;
+  margin: 0 auto;
+  background-color: #747171;
+  width: 475px;
+  opacity: 0;
+  box-shadow: 5px 2px 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+.container2 {
+  display: flex;
+  height: 50px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: black;
+  width: 475px;
   justify-content: center;
   align-items: center;
+  opacity: 0;
 }
 
-.search p {
+.container .name {
   color: #fff;
-  font-weight: 800;
+  font-size: 25px;
 }
 
-img {
-  display: block;
-  margin: auto;
+.container .number {
+  color: #fff;
+  font-size: 25px;
 }
