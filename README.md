@@ -1,6 +1,6 @@
 # PokemonSearch
 
-This is a website made using pokeAPI. You can type the pokemon name or number to be shown information about the pokemon.
+This is a website made using pokeAPI to understand how APIs works. I used HTML, CSS and Js.You can type the pokemon name or number to be shown information about the pokemon.
 
 **Preview**
 
