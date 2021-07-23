@@ -7,6 +7,12 @@
   background-position: center;
 }
 
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 form {
   text-align: center;
 }
@@ -36,13 +42,19 @@ form input {
 }
 
 .container {
-  display: block;
-  border-radius: 5px;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
   background-color: #747171;
-  width: 475px;
   opacity: 0;
   box-shadow: 5px 2px 15px 5px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+}
+
+#pokemonSprite{
+  height: 400px;
 }
 
 .container2 {
@@ -51,7 +63,6 @@ form input {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   background-color: black;
-  width: 475px;
   justify-content: center;
   align-items: center;
   opacity: 0;
